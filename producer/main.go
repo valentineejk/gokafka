@@ -21,7 +21,7 @@ const (
 )
 
 type Message struct {
-	State MessageState
+	State MessageState `json:"state"`
 }
 
 func main() {

@@ -13,7 +13,7 @@ A basic Kafka implementation in Go using Fiber web framework for HTTP endpoints 
 ```
 .
 ├── producer/
-│   └── main.go          # HTTP server with Kafka producer
+│   └── src/main.rs          # HTTP server with Kafka producer
 ├── consumer/
 │   └── main.go          # HTTP server with background Kafka consumer
 ├── docker-compose.yml   # Kafka + Zookeeper setup
@@ -24,7 +24,7 @@ A basic Kafka implementation in Go using Fiber web framework for HTTP endpoints 
 
 - Go 1.21+
 - Docker and Docker Compose
-- Port 3000, 4000, and 29092 available
+- Port 8080, 4000, and 29092 available
 
 ## Quick Start
 

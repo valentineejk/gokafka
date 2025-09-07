@@ -1,0 +1,45 @@
+######################
+# Rust (consumer/)
+######################
+/consumer/target/
+/consumer/Cargo.lock    # keep if binary app, ignore if library
+**/*.rs.bk
+*.profraw
+
+######################
+# Go (producer/)
+######################
+/producer/bin/
+/producer/vendor/
+/producer/*.exe
+/producer/*.test
+/producer/*.out
+
+# Go build cache & test output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+######################
+# Common
+######################
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE/editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.swo
+
+# Logs & env
+*.log
+.env
+.env.*
