@@ -1,6 +1,6 @@
 # Simple Kafka Producer-Consumer Example
 
-A basic Kafka implementation in Go using Fiber web framework for HTTP endpoints and Confluent's Kafka Go client.
+A basic Kafka implementation in Go/Rust using Fiber and Actix framework for HTTP endpoints and Confluent's Kafka Go client.
 
 ## Features
 
